@@ -10,4 +10,11 @@ export const LeftColumn = styled.aside`
   @media print {
     flex-direction: row;
   }
+  @media (max-width: 800px) {
+    flex-direction: row;
+    align-items: center;
+  }
+  @media (max-width: 650px) {
+    display: block;
+  }
 `;

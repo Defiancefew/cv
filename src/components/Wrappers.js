@@ -43,12 +43,12 @@ export const SectionWrapper = styled.div`
   width: 100%;
   @media (max-width: 800px) {
     > div {
-      padding: 0 10px;
+      padding: 0 10px 10px 10px;
     }
   }
 `;
 
-export const MainWrapper = styled.div`
+export const MainWrapper = styled.main`
   width: 100%;
 `;
 
@@ -78,4 +78,31 @@ export const DropdownChildren = styled.span`
   padding: 5px;
   left: 0;
   border-radius: 10px;
+`;
+
+export const Footer = styled.footer`
+  background: gray;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  @media print {
+    display: none;
+  }
+`;
+
+export const Layout = styled.div`
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0 auto;
+`;
+
+export const Columns = styled.div`
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 800px) {
+    display: block;
+  }
 `;

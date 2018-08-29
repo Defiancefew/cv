@@ -5,7 +5,7 @@ export const Heading = styled.h2`
   background-color: black;
   color: white;
   padding: 10px;
-  margin: 5px 0;
+  margin: 0 0 5px 0;
   &:hover {
     cursor: pointer;
   }
