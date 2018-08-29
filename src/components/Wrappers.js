@@ -53,3 +53,9 @@ export const InfoWrapper = styled.div`
     padding: 5px;
   }
 `;
+
+export const JobWrapper = styled.div`
+  & > section:nth-child(1) {
+    border-top: none;
+  }
+`;

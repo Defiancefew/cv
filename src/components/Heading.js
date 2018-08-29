@@ -4,8 +4,8 @@ export const Heading = styled.h2`
   text-align: ${({ textAlign }) => textAlign || 'left'};
   background-color: black;
   color: white;
-  padding: 5px;
-  margin: 0;
+  padding: 10px;
+  margin: 5px 0;
   &:hover {
     cursor: pointer;
   }

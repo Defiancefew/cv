@@ -11,4 +11,7 @@ export const DownloadButton = styled.a`
   &:hover {
     cursor: pointer;
   }
+  @media print {
+    display: none;
+  }
 `;
