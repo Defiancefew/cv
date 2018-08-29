@@ -14,7 +14,7 @@ export class Main extends React.Component {
     return (
       <MainWrapper>
         <GeneralInfo />
-        <Skills />
+        {/* <Skills /> */}
         <JobExperience />
         <TechSkillCloud />
         <LanguageEducation />
