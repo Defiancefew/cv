@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const DownloadButton = styled.a`
   background: black;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
   text-decoration: none;
   border: none;
   color: white;
@@ -11,6 +14,26 @@ export const DownloadButton = styled.a`
   margin: 10px auto 0 auto;
   &:hover {
     cursor: pointer;
+  }
+  @media print {
+    display: none;
+  }
+  @media (max-width: 800px) {
+    display: none;
+  }
+`;
+
+export const SmallerButton = styled(DownloadButton)`
+  display: none;
+  @media (max-width: 800px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background-color: transparent;
+    > svg {
+      fill: black;
+    }
   }
   @media print {
     display: none;
