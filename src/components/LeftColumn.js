@@ -7,4 +7,7 @@ export const LeftColumn = styled.aside`
   padding-left: 5px;
   margin-right: 10px;
   padding-bottom: 10px;
+  @media print {
+    flex-direction: row;
+  }
 `;

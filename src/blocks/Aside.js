@@ -11,11 +11,12 @@ export class Aside extends React.Component {
     return (
       <LeftColumn>
         <Avatar src={avatarUrl} />
-        <FullName>Вячеслав Минин</FullName>
-        <MainPosition>Frontend разработчик</MainPosition>
+        <div>
+          <FullName>Вячеслав Минин</FullName>
+          <MainPosition>Frontend разработчик</MainPosition>
 
-        <Contacts />
-
+          <Contacts />
+        </div>
         <DownloadButton href="/cv/minin_cv.pdf" download>
           Скачать PDF
         </DownloadButton>

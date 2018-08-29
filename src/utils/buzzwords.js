@@ -51,7 +51,7 @@ const otherList = [
   'terminal',
   'semantic versioning',
   'jira',
-  'trello',
+  'kanban',
   'vs code',
   'webstorm',
 ];

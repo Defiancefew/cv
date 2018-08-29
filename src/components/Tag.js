@@ -11,4 +11,8 @@ export const Tag = styled.div`
   &:hover {
     cursor: pointer;
   }
+  @media print {
+    background-color: white;
+    color: black;
+  }
 `;
