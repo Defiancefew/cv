@@ -57,12 +57,12 @@ const otherList = [
 ];
 
 const constantsColors = {
-  frontendList: 'red',
-  backendList: 'purple',
-  testList: 'orange',
-  cssList: 'blue',
-  toolingList: 'green',
-  otherList: 'gray',
+  frontendList: '#2892D7',
+  backendList: '#6DAEDB',
+  testList: '#1D70A2',
+  cssList: '#5A97BB',
+  toolingList: '#597681',
+  otherList: '#1B4353',
 };
 
 const labelNames = {
