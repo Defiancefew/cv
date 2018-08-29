@@ -2,14 +2,19 @@ import React, { Component } from 'react';
 
 import { Aside } from './blocks/Aside';
 import { Main } from './blocks/Main';
-import { Layout } from './components/Layout';
+// import { Bottom } from './blocks/Bottom';
+
+import { Layout, Columns } from './components/Wrappers';
 
 class App extends Component {
   render() {
     return (
       <Layout>
-        <Aside />
-        <Main />
+        <Columns>
+          <Aside />
+          <Main />
+        </Columns>
+        {/* <Bottom /> */}
       </Layout>
     );
   }
