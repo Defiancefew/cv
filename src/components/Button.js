@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const DownloadButton = styled.a`
   background: black;
+  text-decoration: none;
   border: none;
   color: white;
   padding: 15px;
