@@ -9,7 +9,7 @@ export class LanguageEducation extends React.Component {
           Свободно читаю техническую документацию на <strong>английском</strong>
           , имеются сертификаты о прохождении экзаменов{' '}
           <strong>Cambridge CAT, PET, FCE</strong> (upper intermediate). Есть
-          опыт работы англоговорящем стартапе.
+          опыт работы в англоговорящем стартапе.
         </p>
 
         <p>

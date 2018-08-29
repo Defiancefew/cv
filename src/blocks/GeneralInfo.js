@@ -22,7 +22,7 @@ export class GeneralInfo extends React.Component {
         <InfoRow name="График работы">Полный день</InfoRow>
         <InfoRow name="Занятость">Полная занятость</InfoRow>
         <InfoRow name="Формат работы">
-          Удаленно, не готов к переезду, готов к коммандировкам
+          Удаленно, не готов к переезду, готов к командировкам
         </InfoRow>
       </Section>
     );
