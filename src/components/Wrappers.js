@@ -34,6 +34,11 @@ export const IconWrapper = styled.div`
 
 export const SectionWrapper = styled.div`
   width: 100%;
+  @media (max-width: 800px) {
+    > div {
+      padding-left: 5px;
+    }
+  }
 `;
 
 export const MainWrapper = styled.div`

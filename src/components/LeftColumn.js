@@ -6,4 +6,5 @@ export const LeftColumn = styled.aside`
   flex: 0 0 300px;
   padding-left: 5px;
   margin-right: 10px;
+  padding-bottom: 10px;
 `;

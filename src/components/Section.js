@@ -16,7 +16,7 @@ export class Section extends React.Component {
     return (
       <SectionWrapper>
         <Heading onClick={this.toggleSection}>{name}</Heading>
-        {this.state.isOpen && children}
+        <div>{this.state.isOpen && children}</div>
       </SectionWrapper>
     );
   }
