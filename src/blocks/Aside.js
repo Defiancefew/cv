@@ -16,7 +16,7 @@ export class Aside extends React.Component {
 
         <Contacts />
 
-        <DownloadButton href="/minin_cv.pdf" download>
+        <DownloadButton href="/cv/minin_cv.pdf" download>
           Скачать PDF
         </DownloadButton>
       </LeftColumn>
