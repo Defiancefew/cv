@@ -4,14 +4,15 @@ import { ContactRow } from '../components/ContactRow';
 export class Contacts extends React.Component {
   render() {
     return (
-      <div>
+      <section>
         <h3>Контакты:</h3>
         <ContactRow rowName="mail" />
         <ContactRow rowName="phone" />
         <ContactRow rowName="telegram" />
         <ContactRow rowName="skype" />
         <ContactRow rowName="location" />
-      </div>
+        <ContactRow rowName="github" />
+      </section>
     );
   }
 }
