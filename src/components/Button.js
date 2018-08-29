@@ -5,7 +5,7 @@ export const DownloadButton = styled.a`
   border: none;
   color: white;
   padding: 15px;
-  font-size: 20px;
+  font-size: 1.3rem;
   max-width: 200px;
   margin: 0 auto;
   &:hover {

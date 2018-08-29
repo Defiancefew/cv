@@ -12,14 +12,8 @@ export const Heading = styled.h2`
 `;
 
 export const CompanyName = styled.h2`
-  font-size: 24px;
+  font-size: 1.8rem;
   margin: 0;
-`;
-
-export const LocationDates = styled.div``;
-
-export const CompanyPosition = styled.div`
-  font-size: 24px;
 `;
 
 export const JobListHeading = styled.section`

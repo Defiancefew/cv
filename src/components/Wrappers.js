@@ -25,7 +25,7 @@ export const ContactsWrapper = styled.section`
   > svg {
     margin-right: 10px;
   }
-  font-size: 16px;
+  font-size: 1rem;
 `;
 
 export const IconWrapper = styled.div`
