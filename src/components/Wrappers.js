@@ -43,7 +43,7 @@ export const SectionWrapper = styled.div`
   width: 100%;
   @media (max-width: 800px) {
     > div {
-      padding: 0 5px 0 5px;
+      padding: 0 10px;
     }
   }
 `;
