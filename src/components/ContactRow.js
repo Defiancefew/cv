@@ -5,6 +5,7 @@ import Telegram from '../components/icons/Telegram';
 import Phone from '../components/icons/Phone';
 import Mail from '../components/icons/Mail';
 import Location from '../components/icons/Location';
+import Github from '../components/icons/Github';
 
 import { contactsList } from '../utils/contacts';
 
@@ -24,6 +25,8 @@ export class ContactRow extends React.Component {
         return <Skype />;
       case 'telegram':
         return <Telegram />;
+      case 'github':
+        return <Github />;
       default:
         return `${iconName}:`;
     }
@@ -53,6 +56,8 @@ export class ContactRow extends React.Component {
             {contactsList[rowName]}
           </Anchor>
         );
+      case 'github':
+        return <Anchor href={contactsList[rowName]}>github/defiancefew</Anchor>;
       default:
         return <div>{contactsList[rowName]}</div>;
     }
