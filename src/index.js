@@ -12,12 +12,12 @@ import RobotoBold from './assets/fonts/Roboto-Regular.ttf';
 injectGlobal`
   @font-face {
     font-family: RobotoRegular;
-    src: url(${RobotoRegular})  format('truetype');
+    src: url(${RobotoRegular}) format('truetype');
   }
 
   @font-face {
     font-family: RobotoBold;
-    src: url(${RobotoBold})  format('truetype');
+    src: url(${RobotoBold}) format('truetype');
   }
 
   html {
@@ -30,7 +30,7 @@ injectGlobal`
   }
 
   body {
-    font-family: 'RobotoRegular', serif;
+    font-family: 'RobotoRegular', sans-serif;
   }
 
   html,
