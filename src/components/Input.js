@@ -3,9 +3,16 @@ import styled from 'styled-components';
 
 export const Label = styled.label`
   padding: 5px;
+  display: flex;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  align-items: center;
 `;
 
-const Checkbox = styled.input`
+const Checkbox = styled.input.attrs({
+  type: 'checkbox',
+})`
+  background: none;
   margin-left: 5px;
   margin-right: 10px;
 `;
@@ -13,6 +20,6 @@ const Checkbox = styled.input`
 export const LabeledChechkbox = ({ labelText, htmlFor, ...props }) => (
   <Label htmlFor={htmlFor}>
     {labelText}
-    <Checkbox type="checkbox" {...props} />
+    <Checkbox {...props} />
   </Label>
 );

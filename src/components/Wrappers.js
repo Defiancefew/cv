@@ -10,6 +10,10 @@ export const Filters = styled.div`
   margin: 10px 0;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  @media print {
+    display: none;
+  }
 `;
 
 export const JobListWrapper = styled.section`
