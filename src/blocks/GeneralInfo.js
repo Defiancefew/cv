@@ -3,6 +3,7 @@ import { Section } from '../components/Section';
 import { InfoRow } from '../components/InfoRow';
 
 import { contactsList } from '../utils/contacts';
+import { calculateAge } from '../utils/date';
 import { Anchor } from '../components/Anchor';
 
 export class GeneralInfo extends React.Component {
@@ -10,7 +11,7 @@ export class GeneralInfo extends React.Component {
     return (
       <Section name="Общая информация">
         <InfoRow name="ФИО">Минин Вячеслав Сергеевич</InfoRow>
-        <InfoRow name="Возраст">26 лет</InfoRow>
+        <InfoRow name="Возраст">{calculateAge()} лет</InfoRow>
         <InfoRow name="Проживает">
           <Anchor href={contactsList.location}>г. Донецк</Anchor>
         </InfoRow>

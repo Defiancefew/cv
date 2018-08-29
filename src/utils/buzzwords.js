@@ -2,6 +2,9 @@ const frontendList = [
   'React',
   'Vue.js',
   'Angular 1.*',
+  'redux',
+  'mobx',
+  'vuex',
   'd3.js',
   'babel',
   'ES-201*',
@@ -31,8 +34,6 @@ const testList = ['mocha', 'jest', 'enzyme'];
 
 const cssList = ['less', 'sass', 'css-in-js', 'css-modules', 'BEM'];
 
-const stateManagement = ['redux', 'mobx', 'vuex'];
-
 const toolingList = [
   'webpack',
   'gulp',
@@ -52,8 +53,7 @@ const otherList = [
   'semantic versioning',
   'jira',
   'kanban',
-  'vs code',
-  'webstorm',
+  'functional programming',
 ];
 
 const constantsColors = {
@@ -61,7 +61,6 @@ const constantsColors = {
   backendList: 'purple',
   testList: 'orange',
   cssList: 'blue',
-  stateManagement: 'cornflowerblue',
   toolingList: 'green',
   otherList: 'gray',
 };
@@ -71,7 +70,6 @@ const labelNames = {
   backendList: 'backend',
   testList: 'testing',
   cssList: 'css',
-  stateManagement: 'state management',
   toolingList: 'tooling',
   otherList: 'other',
 };
@@ -82,7 +80,6 @@ export {
   backendList,
   testList,
   cssList,
-  stateManagement,
   toolingList,
   otherList,
   labelNames,
