@@ -14,6 +14,9 @@ export const Filters = styled.div`
   @media print {
     display: none;
   }
+  @media (max-width: 500px) {
+    display: none;
+  }
 `;
 
 export const JobListWrapper = styled.section`
@@ -40,7 +43,7 @@ export const SectionWrapper = styled.div`
   width: 100%;
   @media (max-width: 800px) {
     > div {
-      padding-left: 5px;
+      padding: 0 5px 0 5px;
     }
   }
 `;
@@ -62,4 +65,17 @@ export const JobWrapper = styled.div`
   & > section:nth-child(1) {
     border-top: none;
   }
+`;
+
+export const DropdownWrapper = styled.span`
+  position: relative;
+`;
+
+export const DropdownChildren = styled.span`
+  position: absolute;
+  background: white;
+  bottom: -200px;
+  padding: 5px;
+  left: 0;
+  border-radius: 10px;
 `;

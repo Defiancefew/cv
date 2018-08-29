@@ -4,8 +4,9 @@ export const Tag = styled.div`
   border-radius: 15px;
   margin: 5px;
   display: inline-block;
+  white-space: nowrap;
   padding: 5px 15px;
-  background-color: ${props => props.color || 'cornflowerblue'};
+  background-color: ${({ color }) => color || 'cornflowerblue'};
   color: white;
   &:hover {
     cursor: pointer;

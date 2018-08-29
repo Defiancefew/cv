@@ -16,3 +16,16 @@ export const DownloadButton = styled.a`
     display: none;
   }
 `;
+
+export const FilterButton = styled.button`
+  background: none;
+  border: none;
+  outline: none;
+  display: none;
+  &:hover {
+    cursor: pointer;
+  }
+  @media (max-width: 500px) {
+    display: inline-block;
+  }
+`;
