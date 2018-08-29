@@ -29,7 +29,7 @@ export class TechSkillCloud extends React.Component {
 
   render() {
     return (
-      <Section name="Облако технологий">
+      <Section name="Технологии">
         <Filters>
           {constantsList.map(listName => (
             <LabeledChechkbox

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import { Aside } from './views/Aside';
-import { Main } from './views/Main';
+import { Aside } from './blocks/Aside';
+import { Main } from './blocks/Main';
 import { Layout } from './components/Layout';
 
 class App extends Component {
