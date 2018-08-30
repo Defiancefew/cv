@@ -9,4 +9,7 @@ export const Avatar = styled.img`
   @media (max-width: 800px) {
     margin-right: 20px;
   }
+  @media (max-width: 350px) {
+    margin-right: 0px;
+  }
 `;

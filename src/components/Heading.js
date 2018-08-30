@@ -6,9 +6,6 @@ export const Heading = styled.h2`
   color: white;
   padding: 10px;
   margin: 0 0 5px 0;
-  &:hover {
-    cursor: pointer;
-  }
 `;
 
 export const CompanyName = styled.h2`

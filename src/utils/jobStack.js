@@ -25,7 +25,7 @@ const veriboxStack = [
   'angular 1.3',
   'node.js',
   'express',
-  'pahntomjs',
+  'phantomjs',
   'mysql',
   'gulp',
   'mocha',
