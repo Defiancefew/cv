@@ -7,14 +7,14 @@ export const LeftColumn = styled.aside`
   padding-left: 5px;
   margin-right: 10px;
   padding-bottom: 10px;
-  @media print {
-    flex-direction: row;
-  }
   @media (max-width: 800px) {
     flex-direction: row;
     align-items: center;
   }
-  @media (max-width: 650px) {
+  @media only screen and (max-width: 650px) {
     display: block;
+  }
+  @media print {
+    flex-direction: row;
   }
 `;

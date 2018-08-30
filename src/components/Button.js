@@ -15,10 +15,14 @@ export const DownloadButton = styled.a`
   &:hover {
     cursor: pointer;
   }
-  @media print {
+  @media (max-width: 800px) {
     display: none;
   }
-  @media (max-width: 800px) {
+  @media (max-width: 650px) {
+    display: block;
+    max-width: 100%;
+  }
+  @media print {
     display: none;
   }
 `;
@@ -36,6 +40,9 @@ export const SmallerButton = styled(DownloadButton)`
     }
   }
   @media print {
+    display: none;
+  }
+  @media (max-width: 650px) {
     display: none;
   }
 `;
