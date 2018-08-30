@@ -22,6 +22,7 @@ export const SharpTag = styled(Tag)`
   border-radius: 0;
   background-color: #2892d7;
   margin: 5px 5px 5px 0;
+  padding: 5px 15px;
   @media print {
     color: white;
   }
