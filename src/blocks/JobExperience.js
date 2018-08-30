@@ -2,8 +2,14 @@ import React from 'react';
 import { Section } from '../components/Section';
 import { JobListItem } from '../components/JobListItem';
 import { JobWrapper } from '../components/Wrappers';
+import { SharpTag } from '../components/Tag';
+
+import { veriboxStack, alicantoStack, setbrainsStack } from '../utils/jobStack';
 
 export class JobExperience extends React.Component {
+  renderStack = company =>
+    company.map(tagName => <SharpTag key={tagName}>{tagName}</SharpTag>);
+
   render() {
     return (
       <Section name="Достижения и опыт">
@@ -22,7 +28,7 @@ export class JobExperience extends React.Component {
               интернационализировать приложения и провести масштабный
               рефакторинг проектов.
             </p>
-            <p>Стек: react, typescript, mobx, d3, inversify, protobuf</p>
+            <div>{this.renderStack(setbrainsStack)}</div>
           </JobListItem>
           <JobListItem
             company="Alicanto"
@@ -45,10 +51,7 @@ export class JobExperience extends React.Component {
               все компоненты в отдельный UI-kit. Проекты удалось перевести на
               typescript, css-in-js, код начал покрываться модульными тестами.
             </p>
-            <p>
-              Стек: react, typescript, redux, react-router, css-modules /
-              styled-jsx, lodash, jest, enzyme, webpack, docker
-            </p>
+            <div>{this.renderStack(alicantoStack)}</div>
           </JobListItem>
           <JobListItem
             position="Full-stack разработчик"
@@ -73,10 +76,7 @@ export class JobExperience extends React.Component {
               компании, оптимизировать нагрузку на платформу, на 30% сократить
               расходы на сервера.
             </p>
-            <p>
-              Стек: angular 1.3, node.js, express, pahntomjs, mysql, gulp,
-              mocha, chai, webpack
-            </p>
+            <div>{this.renderStack(veriboxStack)}</div>
           </JobListItem>
           <JobListItem
             position="Инженер службы релейной защиты и автоматики"
@@ -95,7 +95,9 @@ export class JobExperience extends React.Component {
               создал инструменты мониторинга нагрузки на подстанции с
               применением веб технологий.
             </p>
-            <p>Стек: angular 1.3</p>
+            <div>
+              <SharpTag>Angular 1.3</SharpTag>
+            </div>
           </JobListItem>
         </JobWrapper>
       </Section>

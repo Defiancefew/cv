@@ -16,3 +16,9 @@ export const Tag = styled.div`
     color: black;
   }
 `;
+
+export const SharpTag = styled(Tag)`
+  border-radius: 0;
+  background-color: #2892d7;
+  margin: 5px 5px 5px 0;
+`;
